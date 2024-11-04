@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(33, 33, 32);
+    color: whitesmoke;
+}
+
+.head {
+    margin-top: 1em;
+    font-size: 30px;
+}
+
+.headercont {
+    position: absolute;
+    top: 24%;
+    left: 34%;
+    height: 72%;
+    width: 30%;
+    background-color: rgb(13, 12, 12);
+    color: rgb(255, 255, 255);
+    border-radius: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px 8px rgb(26, 82, 113);
+}
+
+.headercont input {
+    margin-top: 20px;
+    margin-left: 1px;
+    height: 15%;
+    width: 95%;
+    background-color: rgb(13, 12, 12);
+    color: rgb(34, 114, 157);
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid whitesmoke;
+    padding: 8px;
+    font-size: 4rem;
+}
+
+
+.k {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headercont .k {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 48px;
+    padding: 31px;
+}
+
+.headercont .l {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 48px;
+    padding: 31px;
+}
+
+.headercont .m  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 48px;
+    padding: 31px;
+}
+
+.headercont .n {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 48px;
+    padding: 31px;
+}
+
+.keys p:hover {
+    cursor: pointer;
+    color: rgb(45, 158, 220);
+}
+
+#r1 {
+    padding: -10px;
+    font-size: 50px;
+    color:rgb(25, 76, 104) ;
+}
+
+#r100 {
+    background-color: rgb(25, 76, 104);
+    color: whitesmoke;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: -8px;
+}
